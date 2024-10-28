@@ -441,15 +441,6 @@
   dependencies:
     react "^18.2.0"
 
-"@koons/genesis@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@koons/genesis/-/genesis-0.0.3.tgz#d1e43194cb639a939e19c364694fde4c6b62188f"
-  integrity sha512-mg57wulPQBcRMDk93KFAw5Ig4I7HGXDNj8/nPy4wtrT2BxEU/y61vOAnnMX2BDD1bLgZauUzkam+Jmzv+YbzIA==
-  dependencies:
-    "@koons/cli" "^0.1.4"
-    config-file-ts "^0.2.8-rc1"
-    zod "^3.23.8"
-
 "@manypkg/find-root@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@manypkg/find-root/-/find-root-1.1.0.tgz#a62d8ed1cd7e7d4c11d9d52a8397460b5d4ad29f"
@@ -769,14 +760,6 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
-
-config-file-ts@^0.2.8-rc1:
-  version "0.2.8-rc1"
-  resolved "https://registry.yarnpkg.com/config-file-ts/-/config-file-ts-0.2.8-rc1.tgz#fb7fc6ccb2e313f69dbeb78f1db0b00038049de0"
-  integrity sha512-GtNECbVI82bT4RiDIzBSVuTKoSHufnU7Ce7/42bkWZJZFLjmDF2WBpVsvRkhKCfKBnTBb3qZrBwPpFBU/Myvhg==
-  dependencies:
-    glob "^10.3.12"
-    typescript "^5.4.3"
 
 consola@^3.2.3:
   version "3.2.3"
@@ -1153,7 +1136,7 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@^10.3.10, glob@^10.3.12:
+glob@^10.3.10:
   version "10.4.5"
   resolved "https://registry.yarnpkg.com/glob/-/glob-10.4.5.tgz#f4d9f0b90ffdbab09c9d77f5f29b4262517b0956"
   integrity sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==
@@ -2069,7 +2052,7 @@ type-fest@^0.20.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-typescript@^5.4.3, typescript@^5.6.3:
+typescript@^5.6.3:
   version "5.6.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.3.tgz#5f3449e31c9d94febb17de03cc081dd56d81db5b"
   integrity sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==
