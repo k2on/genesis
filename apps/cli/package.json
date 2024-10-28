@@ -1,6 +1,6 @@
 {
     "name": "@koons/genesis",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "scripts": {
         "build": "tsup src/index.ts"
@@ -9,8 +9,8 @@
         "genesis": "dist/index.js"
     },
     "dependencies": {
-        "@koons/cli": "^0.1.3",
-        "zod": "^3.23.8"
+        "@koons/cli": "^0.1.4",
+        "config-file-ts": "^0.2.8-rc1"
     },
     "publishConfig": {
         "access": "public"
