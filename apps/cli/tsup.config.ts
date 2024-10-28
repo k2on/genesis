@@ -6,4 +6,5 @@ export default defineConfig({
   target: 'node16',
   format: ['cjs'],
   external: ['./genesis.config.ts'], // Exclude from bundling
+  dts: true
 });

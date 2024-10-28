@@ -26,6 +26,6 @@
         "packages/*"
     ],
     "dependencies": {
-        "@koons/genesis": "^0.0.2"
+        "@koons/genesis": "^0.0.3"
     }
 }

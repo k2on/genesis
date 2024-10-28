@@ -1,10 +1,3 @@
-import { config, info, auth } from "@koons/genesis";
+import { config } from "@koons/genesis";
 
-export default config([
-    info({
-        name: "genesis",
-    }),
-    auth({
-        providers: ["github"]
-    })
-])
+export default config("genesis");
