@@ -3,6 +3,8 @@
 import { run, router, command } from "@koons/cli";
 import { loadTsConfig } from "config-file-ts";
 
+export const config = (name: string) => ({ name });
+
 run(
     router({
         status: command()

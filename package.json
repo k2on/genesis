@@ -24,5 +24,8 @@
     "workspaces": [
         "apps/*",
         "packages/*"
-    ]
+    ],
+    "dependencies": {
+        "@koons/genesis": "^0.0.2"
+    }
 }
