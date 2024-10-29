@@ -19,9 +19,7 @@ function getConfigPath() {
 function loadConfig() {
     const path = getConfigPath();
     if (!path) return null;
-    const json = cosmiconfigSync("genesis").load(
-        "/Users/k2/dev/apps/genesis/genesis.config.ts",
-    )?.config;
+    const json = cosmiconfigSync("genesis").load(path)?.config;
     console.log("json", json);
 
     try {
