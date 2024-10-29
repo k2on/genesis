@@ -4,6 +4,7 @@ import { run, router, command } from "@koons/cli";
 import { existsSync } from "fs";
 import { cosmiconfigSync } from "cosmiconfig";
 import { ConfigSchema } from "./types";
+import packageJson from "../package.json";
 
 const name = "genesis.config.ts";
 
@@ -20,7 +21,6 @@ function loadConfig() {
     const path = getConfigPath();
     if (!path) return null;
     const json = cosmiconfigSync("genesis").load(path)?.config;
-    console.log("json", json);
 
     try {
         return ConfigSchema.parse(json);
@@ -41,6 +41,12 @@ run(
                     return;
                 }
                 console.log("Genesis", config.name);
+            }),
+        version: command()
+            .describe("Show the version of the application")
+            .fn(async () => {
+                const version = packageJson.version;
+                console.log("Genesis version:", version);
             }),
     }),
 );

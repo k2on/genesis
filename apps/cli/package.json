@@ -1,9 +1,10 @@
 {
     "name": "@koons/genesis",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "license": "MIT",
     "scripts": {
-        "build": "tsup"
+        "build": "tsup",
+        "start": "turbo build && node dist/cli.js"
     },
     "bin": {
         "genesis": "dist/cli.js"
