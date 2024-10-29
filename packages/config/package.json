@@ -1,0 +1,17 @@
+{
+    "name": "@koons/config",
+    "version": "0.0.6",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsup"
+    },
+    "files": [
+        "dist/**"
+    ],
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "dependencies": {
+        "zod": "^3.23.8"
+    }
+}

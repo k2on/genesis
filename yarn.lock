@@ -441,15 +441,6 @@
   dependencies:
     react "^18.2.0"
 
-"@koons/genesis@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@koons/genesis/-/genesis-0.0.4.tgz#67e2abebc164a043e884d0fa22e5eaaf2119635e"
-  integrity sha512-uUksopqxE4NdZPQd6byuy3awriaQ1q/EZITW3PEtpd2l9Rs7j4ZfgftB90lk4fInjPfFr6FJ2/9B/p8b5GnC/w==
-  dependencies:
-    "@koons/cli" "^0.1.4"
-    cosmiconfig "^9.0.0"
-    zod "^3.23.8"
-
 "@manypkg/find-root@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@manypkg/find-root/-/find-root-1.1.0.tgz#a62d8ed1cd7e7d4c11d9d52a8397460b5d4ad29f"

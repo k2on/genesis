@@ -1,10 +1,11 @@
 #! /usr/bin/env node
 
 import { run, router, command } from "@koons/cli";
+import { ConfigSchema } from "@koons/config";
 import { existsSync } from "fs";
 import { cosmiconfigSync } from "cosmiconfig";
-import { ConfigSchema } from "./types";
 import packageJson from "../package.json";
+import z from "zod";
 
 const name = "genesis.config.ts";
 
@@ -42,6 +43,20 @@ run(
                 }
                 console.log("Genesis", config.name);
             }),
+        add: router({
+            package: command()
+                .describe("Add a package to the project")
+                .input(z.object({ name: z.string() }))
+                .fn(async ({ input }) => {
+                    const config = loadConfig();
+                    if (!config) {
+                        console.error("No config found");
+                        return;
+                    }
+                    const packageName = `@${config.name}/${input.name}`;
+                    console.log("Creating package", packageName);
+                }),
+        }),
         version: command()
             .describe("Show the version of the application")
             .fn(async () => {

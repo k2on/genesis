@@ -16,6 +16,7 @@
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
     "dependencies": {
+        "@koons/config": "*",
         "@koons/cli": "^0.1.4",
         "cosmiconfig": "^9.0.0",
         "zod": "^3.23.8"
