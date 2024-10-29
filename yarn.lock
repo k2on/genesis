@@ -434,10 +434,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@koons/cli@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@koons/cli/-/cli-0.1.4.tgz#600b3c53c4a53adec8822a9db86891649e77faaf"
-  integrity sha512-IhKcz4ybTzgvfCj5wOBKLmuVqnJZ0GoYvVlCmHaBirXsMU12azMpumij0iInU3YBNQtASP9v8d1cH2r2ac8hkQ==
+"@koons/cli@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@koons/cli/-/cli-0.1.5.tgz#898fce8b50f08b0a6d0f0c052ce282c64ee61d44"
+  integrity sha512-21J+kVzxnU9G20nCnt9Bsfl7pk19Rl/PpAyePs5Zuz5IRch4WJZvvdaX3T46cn+SSQ3CM+JPATEH4pWjl/BZ4A==
   dependencies:
     react "^18.2.0"
 

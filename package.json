@@ -26,6 +26,6 @@
         "packages/*"
     ],
     "dependencies": {
-        "@koons/config": "^0.0.6"
+        "@koons/config": "*"
     }
 }
